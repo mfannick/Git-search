@@ -1,0 +1,26 @@
+/* .all{
+    background-image: url("https://images.wallpaperscraft.com/image/code_lines_programming_130775_300x168.jpg");
+    background-repeat:no-repeat;
+    background-size: cover
+} */
+/* .nav-link{
+    color: white
+} */
+.container-fluid{
+    background-image: url("https://images.wallpaperscraft.com/image/stars_sky_space_car_113629_1280x960.jpg");
+    background-size: cover;
+    height: 600px;
+}
+@import url('https://fonts.googleapis.com/css?family=Livvic&display=swap');
+.center{
+    text-align: center
+}
+img{
+    border-radius: 50px
+}
+p,b,button{
+    font-family: 'Livvic', sans-serif;
+}
+p{
+    color:white;
+}

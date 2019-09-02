@@ -1,0 +1,44 @@
+<body>
+<div class="container-fluid">
+
+
+    <!-- Search form -->
+    <!-- <form>
+            <div class="input-group md-form form-sm form-2 pl-0" style="width: 300px">
+                <input class="form-control my-0 py-1 red-border" type="text" placeholder="Search" aria-label="Search"
+                    [(ngModel)]="login" name='login'>
+                <div class="input-group-append">
+                    <span class="input-group-text red lighten-3" id="basic-text1"><i class="fas fa-search text-grey"
+                            aria-hidden="true"></i></span>
+                </div>
+            </div>
+        </form> -->
+        <br>
+        <br>
+    <div class="center">
+        <img src="https://images.wallpaperscraft.com/image/ubuntu_system_program_logo_26139_300x168.jpg" alt="search">
+        <br>
+        <br>
+        <p appUnderline>Find your Git Hub account details Using your username</p>
+        <p appUnderline><b>Welcome</b></p>
+
+    </div>
+    <form class="form-inline"  #pubForm="ngForm" style="margin-left: 500px">
+        <input class="form-control mr-sm-2" type="text" name=name placeholder="Enter Username..." [(ngModel)]="name">
+    </form><br>
+
+    <button class="btn btn-secondary" (click)='searchU()' style="margin-left: 500px">View your profile</button><br>        
+    <br><button class="btn btn-secondary" (click)='searchR()'style="margin-left: 500px">View your repos</button>
+
+
+    <!-- <img src="https://images.wallpaperscraft.com/image/ubuntu_system_program_logo_26139_300x168.jpg" alt="search">
+    <p>Find your Git Hub account details Using your username</p>
+    <form class="form-inline" (ngSubmit)='findUser()'  #pubForm="ngForm">
+        <input class="form-control mr-sm-2" type="text" placeholder="Enter Username...">
+        <button class="btn btn-success" type="submit">Search</button>
+    </form>
+    <p><b>Welcome</b></p> -->
+
+
+</div>
+</body>

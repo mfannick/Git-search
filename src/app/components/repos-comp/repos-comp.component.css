@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Livvic&display=swap');
+.img{
+    text-align: center
+}
+img{margin-top: 20px;
+    border-radius: 50px
+}
+.repo{
+   margin-left: 370px
+}
+.jumbotron{
+    width: 500px;
+    text-align: center;
+    border-radius: 20px
+}
+p,a{
+    font-family: 'Livvic', sans-serif;
+}
+.container-fluid{
+    background-image: url("https://images.wallpaperscraft.com/image/stars_sky_space_car_113629_1280x960.jpg");
+    background-size: cover;
+    height: 600px;
+}

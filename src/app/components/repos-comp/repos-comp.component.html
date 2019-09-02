@@ -1,0 +1,31 @@
+<!-- <p>repos-comp works!</p> -->
+
+<!-- <p>following:{{repos.following}}</p> 
+   <p>followers:{{repos.followers}}</p>
+   <p>created at:{{repos.created_at|date}}<p> -->
+<!-- <p><a href="{{repos.html_url}}" target="_blank">repos</a></p> -->
+<div class="container-fluid">
+   <div class="img">
+      <img src="https://images.wallpaperscraft.com/image/box_candy_colorful_flight_67312_300x168.jpg" alt="repo">
+   </div><br>
+   <div class="repo">
+      <div class="jumbotron">
+
+
+         <div *ngFor='let repo of  repoServiceService.newRepos'>
+            <a href="{{repo.html_url}}" target="_blank">{{repo.name}}</a><br>
+            <p class="desc">Description: {{repo.description}}</p>
+            <br>
+            <p>Date Created: {{repo.created_at | date}}</p>
+            <!-- {{repos.name}}<a href="{{repos.html_url}}" target="_blank">fff</a> -->
+            <!-- <p><a href="{{repos.repos_url}}?access_token=1fa4c36cdf01eddfdb665d3fba34d61208f7c15e" target="_blank">repos</a></p> -->
+            <!-- <p><img src="{{repos.repos_url}}?access_token=1fa4c36cdf01eddfdb665d3fba34d61208f7c15e" alt="yes"></p> -->
+
+
+         </div>
+      </div>
+
+
+   </div>
+
+</div>
